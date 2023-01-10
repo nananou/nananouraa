@@ -1,0 +1,9 @@
+$ git branch AnonymousStudent
+$ git checkout AnonymousStudent
+$ git add DesignPattern.md
+$ git commit -m "<コミットメッセージ>"
+$ git push -u origin AnonymousStudent
+$ git checkout main
+$ git pull
+$ git merge AnonymousStudent
+$ git push
